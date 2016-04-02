@@ -1,0 +1,1 @@
+cmd_/root/Drivers/chardev.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-2.6.32-57-generic/scripts/module-common.lds --build-id -o /root/Drivers/chardev.ko /root/Drivers/chardev.o /root/Drivers/chardev.mod.o
